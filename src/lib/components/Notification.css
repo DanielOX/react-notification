@@ -1,6 +1,25 @@
 body {
     background-color:#eee;
 }
+.notification-toggle-btn:focus {
+    outline:none;
+}
+.notification-toggle-btn {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border:1px solid #ddd;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #eee;
+    position: relative;
+    left:77.8%;
+    display: block;
+}
+.notification-toggle-btn i {
+    line-height: 25px;
+    font-size:24px;
+}   
 .user-profile {
     width: 25px;
     height: 25px;
@@ -9,23 +28,25 @@ body {
     border-radius: 100%;
     position: absolute;
     left:5%;
-    margin-top:-50px;
+    margin-top:-60px;
+    display: block;
 }
 .user-notification {
     margin-left:70px;
     display: block;
-    margin-top: -25px;
+    margin-top: -20px;
 }
+
 .contained {
     padding: 20px;
-    width: 500px;
+    width: 400px;
     height:500px;
     position: absolute;     
-    margin-top:40px;
+    margin-top:45px;
     left:50%;
     background-color: white;
     z-index: -2;
-    top:2%;
+    top:5%;
     box-shadow: 1px 0px 5px 1px #eee;
     font-family: 'Raleway', sans-serif;
     box-shadow: 0px 3px 2px 2px #eee;
@@ -38,7 +59,7 @@ body {
     color:transparent;
     border:20px solid #CCC;
     border-color:transparent transparent #fff;
-    margin-top:-12%;
+    margin-top:-15%;
     margin-left:90%;
 }
 
@@ -47,10 +68,14 @@ body {
     padding: 0;
     margin: 0;
     position: relative;
+    display: block;
 }
 
 .NotificationPanel li strong {
-    font-size: 14px;
+    font-size: 12px;
+}
+.NotificationPanel li div p span {
+    font-size:12px;
 }
 
 .NotificationPanel li div {
@@ -92,6 +117,6 @@ body {
     background-color: #eee;
     position: absolute;
     top: 4px;
-    left: 15px;
+    left: 20px;
     z-index: -1;
 }
