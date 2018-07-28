@@ -1,0 +1,97 @@
+body {
+    background-color:#eee;
+}
+.user-profile {
+    width: 25px;
+    height: 25px;
+    background-size:cover;
+    background-position: center center;
+    border-radius: 100%;
+    position: absolute;
+    left:5%;
+    margin-top:-50px;
+}
+.user-notification {
+    margin-left:70px;
+    display: block;
+    margin-top: -25px;
+}
+.contained {
+    padding: 20px;
+    width: 500px;
+    height:500px;
+    position: absolute;     
+    margin-top:40px;
+    left:50%;
+    background-color: white;
+    z-index: -2;
+    top:2%;
+    box-shadow: 1px 0px 5px 1px #eee;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 3px 2px 2px #eee;
+}
+.contained:before {
+    content: '';
+    display:block;
+    width:0;
+    height:0;
+    color:transparent;
+    border:20px solid #CCC;
+    border-color:transparent transparent #fff;
+    margin-top:-12%;
+    margin-left:90%;
+}
+
+.NotificationPanel {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.NotificationPanel li strong {
+    font-size: 14px;
+}
+
+.NotificationPanel li div {
+    margin-left: 50px;
+    margin-top: -25px;
+    padding: 12px;
+    background-color:white
+}
+
+.NotificationPanel li i:after {
+    content: '';
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background-color: #ddd;
+    margin-top: 15px;
+    z-index: -1;
+}
+
+.NotificationPanel li i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.NotificationPanel li {
+    margin-top: 30px;
+}
+
+.NotificationPanel::after {
+    width: 1.5px;
+    content: '';
+    height: 100%;
+    background-color: #eee;
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    z-index: -1;
+}

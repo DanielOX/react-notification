@@ -1,8 +1,3 @@
-import Example from './components/Example';
-import SecondExample from './components/SecondExample';
+import { NotificationToggle } from './components/NotificationToggle';
 
-export default Example;
-
-export {
-  SecondExample,
-};
+export default NotificationToggle
