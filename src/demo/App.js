@@ -22,15 +22,16 @@ const CustomNotifications = [
 
 ];
 
-const App = () => {
-console.log(Array.isArray(CustomNotifications));
-
- return ( 
- <div>
-    <NotificationPanel 
-    Notifications = {CustomNotifications}
-  />
-  </div>
-);
+class App extends React.Component {
+  render() {
+    return ( 
+      <div>
+         <NotificationPanel 
+         Notifications = {CustomNotifications}
+       />
+       </div>
+     );
+     
+  }
 }
 export default App;
