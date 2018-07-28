@@ -6,10 +6,10 @@ An create to create react notification panel and which is initialized using only
 
 It is simple to use.
 
-1 - You can pass a single Object
-2 - You can pass an Array
-3-  Auto detects if the user has read the notification and then resets the count of notification && displays "All caught up message!"
-4-  Still Needs Some Responsiveness Issuess but will work great
+### You can pass a single Object
+### You can pass an Array
+###  Auto detects if the user has read the notification and then resets the count of notification && displays "All caught up message!"
+###  Still Needs Some Responsiveness Issuess but will work great
 
 ```
 import React from 'react';
