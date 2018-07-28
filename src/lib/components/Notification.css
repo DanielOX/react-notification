@@ -17,7 +17,7 @@ body {
     display: block;
 }
 .notification-toggle-btn i {
-    line-height: 25px;
+    line-height: 50px;
     font-size:24px;
 }   
 .user-profile {
@@ -28,11 +28,11 @@ body {
     border-radius: 100%;
     position: absolute;
     left:5%;
-    margin-top:-60px;
-    display: block;
+    margin:0;
+    border:0.5px solid #ddd;
 }
 .user-notification {
-    margin-left:70px;
+    margin-left:40px;
     display: block;
     margin-top: -20px;
 }
@@ -94,18 +94,26 @@ body {
     margin-top: 15px;
     z-index: -1;
 }
-
 .NotificationPanel li i {
     width: 40px;
     height: 40px;
     display: block;
     text-align: center;
     line-height: 40px;
+    font-size:24px;
     border: 1px solid #ddd;
     border-radius: 50%;
     background-color:white;
 }
-
+.like-color {
+    color:#ff2052;
+}
+.share-color {
+    color:#00CC00;
+}
+.comment-color {
+    color:#2F2FFF;
+}
 .NotificationPanel li {
     margin-top: 30px;
 }
@@ -113,7 +121,7 @@ body {
 .NotificationPanel::after {
     width: 1.5px;
     content: '';
-    height: 100%;
+    height: 140%;
     background-color: #eee;
     position: absolute;
     top: 4px;

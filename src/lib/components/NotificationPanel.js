@@ -5,9 +5,11 @@ export const NotificationPanel = (props) => {
     return (
         <React.Fragment>
         <ul className="NotificationPanel">
-            <Notification />
+            {
+                 !Array.isArray(props.Notifications) ? <Notification notify = {props.Notifications}  /> 
+                 : props.Notifications.map( (N,Index ) => <Notification key={Index} notify={N}/> )
+            }
         </ul>
-
          </React.Fragment>   
     );
 }
