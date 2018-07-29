@@ -1,0 +1,173 @@
+[33mcommit 38f5eec50ef2cd1cd3dd6edf24a8e58743ed1261[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sun Jul 29 02:09:37 2018 -0700
+
+    Example Images Were Added
+
+[33mcommit 67c9a40ab6b9a949f6bbe26290437c1c39f425cc[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 14:29:31 2018 -0700
+
+    Added Total No Of Notifications Js Logic / If the user read the Notification then show All Caught Up!
+
+[33mcommit 0c73b0cd51369b4dd05a6ff26cf1f45c0eceb9e3[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 13:35:05 2018 -0700
+
+    Added Notification Counter / Total No Of Unread Notifications HTML / CSS3 Only, No Js Logic
+
+[33mcommit 14f449433d411809cc3e556875b9ea99b797df05[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 13:33:53 2018 -0700
+
+    Developer Can Pass Array or Object As A Prop All Will Be Handeled By The Library
+
+[33mcommit cbcf78a013e9d5443b125c13df3c3b4e762eb47d[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 12:23:32 2018 -0700
+
+    Added Notification Toggle Button / React Component / Props Passing Remains
+
+[33mcommit dabdf04112d51d4aa6494cd96f2f8b8c59b40c55[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 11:34:05 2018 -0700
+
+    Updated package.json / package-lock.json
+
+[33mcommit 6cc32b7d39e49106b9366b3068a6b994098a655d[m
+Author: DanielOX <metalcool07@yahoo.com>
+Date:   Sat Jul 28 11:28:30 2018 -0700
+
+    Notification Panel / User Notification Text / User Image / Added But Date Remains
+
+[33mcommit 1bd5b4f8f81bb3d4922689d72eba47ef0c1f1096[m
+Merge: 551de61 ccb3599
+Author: Dimi Mikadze <dimitrimikadze@gmail.com>
+Date:   Mon Apr 16 10:58:53 2018 +0400
+
+    Merge pull request #33 from jodeio/master
+    
+    Misleading media path on build
+
+[33mcommit ccb359999c7ee6b80609d050c8d38fd906bf9e6c[m
+Author: Joshua de Guzman <devjoshuadeguzman@gmail.com>
+Date:   Sat Apr 14 17:28:00 2018 +0800
+
+    Fix media path on dev config
+
+[33mcommit b673e2fbeaad1eb4c1606a7c0f1cdaba1fe80e33[m
+Author: Joshua de Guzman <devjoshuadeguzman@gmail.com>
+Date:   Sat Apr 14 17:26:40 2018 +0800
+
+    Update media path on prod config
+
+[33mcommit e1f2f0293c7186a36f7ee4c2e6c68f69761e8989[m
+Author: Joshua de Guzman <devjoshuadeguzman@gmail.com>
+Date:   Sat Apr 14 17:24:59 2018 +0800
+
+    Fix media path on demo
+
+[33mcommit 551de619ecdeef9ff6301000cfeef896680cfa80[m
+Merge: e396918 1cc27ba
+Author: Dimi Mikadze <dimitrimikadze@gmail.com>
+Date:   Fri Apr 13 15:14:14 2018 +0400
+
+    Merge pull request #32 from keul/patch-1
+    
+    Added "demo" folder to .npmignore
+
+[33mcommit 1cc27ba85ddad649909f0cb32c794c405c3c663f[m
+Author: Luca Fabbri <luca@keul.it>
+Date:   Fri Apr 13 10:20:26 2018 +0200
+
+    Added "demo" folder to .npmignore
+
+[33mcommit e39691852347e7929eaf420225be6ce6524e4ef6[m
+Author: Dimi Mikadze <dimitrimikadze@gmail.com>
+Date:   Mon Apr 2 23:24:59 2018 +0400
+
+    Edit readme
+
+[33mcommit e97fabfea18cf690420599bb261e3b884e3a5ce0[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Jan 17 10:42:28 2018 +0400
+
+    Move repository from Udilia to DimitriMikadze profile
+
+[33mcommit cd4422078766e1cb32378f117ae01ea423091c7b[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Thu Jan 4 09:58:11 2018 +0400
+
+    Remove default polyfills
+
+[33mcommit b7432495e00140b0746be86f3b46daabb470ee70[m
+Merge: a191304 94106c0
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Thu Jan 4 09:38:39 2018 +0400
+
+    Merge pull request #14 from keul/demo-deploy
+    
+    Can now produce a deployable version of the demo app
+
+[33mcommit 94106c0e0ccf0e10af523191fdcdb9815fb6bf1b[m
+Author: Luca Fabbri <luca@keul.it>
+Date:   Tue Jan 2 10:40:15 2018 +0100
+
+    Can now build a standalone version of the demo app. See #6
+
+[33mcommit a191304fff42f61f64e54a3320bbca98ae391065[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Thu Dec 28 10:20:22 2017 +0400
+
+    Insert css file into css folder and files inside media folder after build
+
+[33mcommit 533e3f22a529179c61d61e751440020276653363[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 18:11:12 2017 +0400
+
+    Remove build folder from repository
+
+[33mcommit 5a75ca00ecfbc5cd9a8015b25bbcd07a882dba82[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 18:09:47 2017 +0400
+
+    Add build folder to .gitignore
+
+[33mcommit 6a15b535fb6f26c524cb976d6edea0d8ee0c23b5[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 16:55:46 2017 +0400
+
+    - Place media and css files to root build folder
+    - Add changelog and readme to .npmignore
+
+[33mcommit 1e323ac91825b4cf5c8f5c3a2d64daede195d20f[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 16:27:07 2017 +0400
+
+    Implement default .npmignore file
+
+[33mcommit 56f2ce5d0c10d188d9a8168658c8f822a9e2946c[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 16:14:52 2017 +0400
+
+    Rename output css file to index.css, instead of hashed one
+
+[33mcommit f0cfd1002508434ee567ae41906d8afceb953f9f[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 15:42:21 2017 +0400
+
+    Remove unnecessary configuration blocks, Fix production build warning
+
+[33mcommit b985ba5428a0bfdddc4366d79608050fe345bd0c[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 11:39:31 2017 +0400
+
+    Update changelog and readme with our news
+
+[33mcommit 5c59c2f6c0a6f286ecefdf6c8bc8b9a43bce96de[m
+Author: Dimitri Mikadze <dimitrimikadze@gmail.com>
+Date:   Wed Dec 27 10:34:45 2017 +0400
+
+    - Removed Sass support by default
+    - Updated to create-react-app version 1.4.3
+    - Updated demo example of library

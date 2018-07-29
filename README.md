@@ -6,6 +6,19 @@ An create to create react notification panel and which is initialized using only
 
 It is simple to use.
 
+
+## [View] Of Notification Panel
+
+![react-notification](https://user-images.githubusercontent.com/33195456/43364772-af476222-92d5-11e8-82c7-3b61ee318406.PNG)
+
+
+##  [Auto Detects] If the Notification is read by the user ?
+
+![react-notification-all-caught-up](https://user-images.githubusercontent.com/33195456/43364775-b5fcd6ba-92d5-11e8-93d4-f3d3ce646379.PNG)
+
+
+## Features 
+
 ###### You can pass a single Object
 ###### You can pass an Array
 ######  Auto detects if the user has read the notification and then resets the count of notification && displays "All caught up message!"
