@@ -1,6 +1,6 @@
 # React-Notification
 
-An create to create react notification panel and which is initialized using only react single component. A library made for developers.
+An create to create react notification panel and which is initialized using only react single component. A library made for developers :neckbeard: by @DanielOX with :heart:
 
 ## Getting Started
 
