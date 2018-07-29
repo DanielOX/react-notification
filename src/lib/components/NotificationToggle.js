@@ -10,10 +10,10 @@ export class NotificationToggle extends  React.Component {
         Notifications:this.props.Notifications           
     }   
     toggleHandler = () => {
-        this.setState( () => ({dropdownOpen:!this.state.dropdownOpen,unReadMessages:0,wasNotificationPanelOpened:true}))
+        this.setState( () => ({dropdownOpen:!this.state.dropdownOpen,wasNotificationPanelOpened:true}))
     }
     didReadTheMessage = () => {
-        this.state.wasNotificationPanelOpened && this.setState( () => ({ Notifications:undefined,wasNotificationPanelOpened:false }) ) 
+        this.state.wasNotificationPanelOpened && this.setState( () => ({ Notifications:undefined,unReadMessages:0,wasNotificationPanelOpened:false }) ) 
     }
      singleUnreadMessagesHandler = () => {
          this.setState( () => ({ unReadMessages:this.state.unReadMessages + 1 }))
@@ -24,9 +24,6 @@ export class NotificationToggle extends  React.Component {
      componentWillMount() {
         !Array.isArray(this.props.Notifications) ? this.singleUnreadMessagesHandler() : this.MultiUnreadMessageHandler()
      }
-    //  componentDidUpdate() {
-    //     !Array.isArray(this.props.Notifications) ? this.singleUnreadMessagesHandler() : this.MultiUnreadMessageHandler()
-    //  }
     render() {
 
         return (

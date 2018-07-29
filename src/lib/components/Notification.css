@@ -135,7 +135,7 @@ body {
 .NotificationPanel::after {
     width: 1.5px;
     content: '';
-    height: 140%;
+    height: 100%;
     background-color: #eee;
     position: absolute;
     top: 4px;
